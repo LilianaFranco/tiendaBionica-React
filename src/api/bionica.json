@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productType": "camisetas",
+      "name": "Colombia",
+      "image": "https://bionica.co/cdn/shop/files/camiseta-mapa-colombia-bionica-4_6432898b-9e1e-4a39-abf1-cea81817d7ab_1024x1024.jpg?v=1693974154",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/camiseta-mapa-colombia-bionica-2_bf841255-de7d-47f4-82f2-f77480a03a33_1024x1024.jpg?v=1693974154",
+        "https://bionica.co/cdn/shop/files/camiseta-mapa-colombia-bionica-5_1024x1024.jpg?v=1693974154",
+        "https://bionica.co/cdn/shop/files/camiseta-mapa-colombia-bionica-4_6432898b-9e1e-4a39-abf1-cea81817d7ab_1024x1024.jpg?v=1693974154",
+        "https://bionica.co/cdn/shop/files/camiseta-mapa-colombia-bionica-3_799f98a5-6e75-4b6f-8062-fa5a9f341635_1024x1024.jpg?v=1693974153"
+      ],
+      "price": 45,
+      "available": false
+    },
+    {
+      "id": 2,
+      "productType": "camisetas",
+      "name": "Corazón",
+      "image": "https://bionica.co/cdn/shop/files/camiseta-corazon-contento-bionica-1_1024x1024.jpg?v=1693974028",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/camiseta-corazon-contento-bionica-1_1024x1024.jpg?v=1693974028",
+        "https://bionica.co/cdn/shop/files/camiseta-corazon-contento-bionica-2_1024x1024.jpg?v=1693974027",
+        "https://bionica.co/cdn/shop/files/camiseta-corazon-contento-bionica-3_1024x1024.jpg?v=1693974028",
+        "https://bionica.co/cdn/shop/files/camiseta-corazon-contento-bionica-4_1024x1024.jpg?v=1693974027"
+      ],
+      "price": 45,
+      "available": false
+    },
+    {
+      "id": 3,
+      "productType": "camisetas",
+      "name": "Jaguar",
+      "image": "https://bionica.co/cdn/shop/files/camiseta-manto-jaguar-hombre-bionica-1_89e25459-1883-4f35-a684-ff9ae65e331d_1024x1024.jpg?v=1695047382",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/camiseta-manto-jaguar-hombre-bionica-1_89e25459-1883-4f35-a684-ff9ae65e331d_1024x1024.jpg?v=1695047382",
+        "https://bionica.co/cdn/shop/files/camiseta-manto-jaguar-hombre-bionica-2_5c43dcf4-e7ba-474a-821a-5927b4a3b635_1024x1024.jpg?v=1695047382",
+        "https://bionica.co/cdn/shop/files/camiseta-manto-jaguar-hombre-bionica-4_1d6f6cff-7bfd-4c2a-84f2-55eab3245991_1024x1024.jpg?v=1695047382",
+        "https://bionica.co/cdn/shop/files/camiseta-manto-jaguar-hombre-bionica-1_89e25459-1883-4f35-a684-ff9ae65e331d_1024x1024.jpg?v=1695047382"
+      ],
+      "price": 45,
+      "available": true
+    },
+    {
+      "id": 4,
+      "productType": "camisetas",
+      "name": "Ninfa",
+      "image": "https://bionica.co/cdn/shop/files/286_4ac7969c-3b2a-45d9-b432-333691d50959_1024x1024.jpg?v=1697816415",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/286_4ac7969c-3b2a-45d9-b432-333691d50959_1024x1024.jpg?v=1697816415",
+        "https://bionica.co/cdn/shop/files/288_0250c575-6d1c-486b-bcdf-0c431136e906_1024x1024.jpg?v=1697816415",
+        "https://bionica.co/cdn/shop/files/285_ca6e30fc-dd84-461b-a1e2-70cca89edd78_1024x1024.jpg?v=1697816415",
+        "https://bionica.co/cdn/shop/files/287_361f5883-ed78-436a-ac90-a838eadc0a28_1024x1024.jpg?v=1697816415"
+      ],
+      "price": 45,
+      "available": true
+    },
+    {
+      "id": 5,
+      "productType": "jeans",
+      "name": "Baggy mujer",
+      "image": "https://bionica.co/cdn/shop/files/jean-baggy-bionica-1_209048d1-ad48-4069-be4d-1e1a0747738f_1024x1024.jpg?v=1697050461",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/jean-baggy-bionica-1_209048d1-ad48-4069-be4d-1e1a0747738f_1024x1024.jpg?v=1697050461",
+        "https://bionica.co/cdn/shop/files/jean-baggy-bionica-2_fca641fd-0c2b-42cf-b347-0387005ed337_1024x1024.jpg?v=1697050460",
+        "https://bionica.co/cdn/shop/files/jean-baggy-bionica-3_2ce687a9-491f-4c65-b4d6-efcebe184081_1024x1024.jpg?v=1697050461",
+        "https://bionica.co/cdn/shop/files/jean-baggy-bionica-5_1024x1024.jpg?v=1697050461"
+      ],
+      "price": 245,
+      "available": false
+    },
+    {
+      "id": 6,
+      "productType": "jeans",
+      "name": "Cargo",
+      "image": "https://bionica.co/cdn/shop/files/180_3e188d98-fab5-442d-aa5a-6ace0b9ce90e_1024x1024.jpg?v=1683213401",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/182_7f7eb342-5808-43fe-b4ac-11b26e3e2a57_1024x1024.jpg?v=1683213401",
+        "https://bionica.co/cdn/shop/files/183_6e5bb49a-0758-4f4f-a9d1-8ef931b54bff_1024x1024.jpg?v=1683213401",
+        "https://bionica.co/cdn/shop/files/181_0e608f19-13d2-43c1-8157-d206234ba85c_1024x1024.jpg?v=1683213401",
+        "https://bionica.co/cdn/shop/files/184_fcf829bb-fca8-4c4e-ae8b-5253b0bc686a_1024x1024.jpg?v=1683213401"
+      ],
+      "price": 220,
+      "available": true
+    },
+    {
+      "id": 7,
+      "productType": "jeans",
+      "name": "Baggy Hombre",
+      "image": "https://bionica.co/cdn/shop/files/331_a148b4a1-0f89-4020-a909-3c9203b68c07_1024x1024.jpg?v=1699626638",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/331_a148b4a1-0f89-4020-a909-3c9203b68c07_1024x1024.jpg?v=1699626638",
+        "https://bionica.co/cdn/shop/files/332_75a5590a-ba8f-4fb7-a331-cb217653629e_1024x1024.jpg?v=1699626638",
+        "https://bionica.co/cdn/shop/files/330_ac9f0ad2-60ea-4ca6-b929-ff417d32ef3f_1024x1024.jpg?v=1699626638",
+        "https://bionica.co/cdn/shop/files/333_69643536-6369-415d-b0c7-f66cb6c12c04_1024x1024.jpg?v=1699626629"
+      ],
+      "price": 169,
+      "available": false
+    },
+    {
+      "id": 8,
+      "productType": "jeans",
+      "name": "Mom canario",
+      "image": "https://bionica.co/cdn/shop/products/canario1_1024x1024.jpg?v=1675365527",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/products/canario1_1024x1024.jpg?v=1675365527",
+        "https://bionica.co/cdn/shop/products/canario2_1024x1024.jpg?v=1675365527",
+        "https://bionica.co/cdn/shop/products/canario3_1024x1024.jpg?v=1675365527",
+        "https://bionica.co/cdn/shop/products/canario4_1024x1024.jpg?v=1675365527"
+      ],
+      "price": 170,
+      "available": false
+    },
+    {
+      "id": 9,
+      "productType": "vestidos",
+      "name": "Viento",
+      "image": "https://bionica.co/cdn/shop/files/vestido-viento-bionica-1_1024x1024.jpg?v=1697050329",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/vestido-viento-bionica-1_1024x1024.jpg?v=1697050329",
+        "https://bionica.co/cdn/shop/files/vestido-viento-bionica-2_1024x1024.jpg?v=1697050329",
+        "https://bionica.co/cdn/shop/files/vestido-viento-bionica-3_1024x1024.jpg?v=1697050329",
+        "https://bionica.co/cdn/shop/files/vestido-viento-bionica-5_1024x1024.jpg?v=1697050329"
+      ],
+      "price": 119,
+      "available": true
+    },
+    {
+      "id": 10,
+      "productType": "vestidos",
+      "name": "Pluma",
+      "image": "https://bionica.co/cdn/shop/files/vestido-pluma-negra-bionica-1_1024x1024.jpg?v=1693975195",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/vestido-pluma-negra-bionica-1_1024x1024.jpg?v=1693975195",
+        "https://bionica.co/cdn/shop/files/vestido-pluma-negra-bionica-2_1024x1024.jpg?v=1693975195",
+        "https://bionica.co/cdn/shop/files/vestido-pluma-negra-bionica-3_1024x1024.jpg?v=1693975195",
+        "https://bionica.co/cdn/shop/files/vestido-pluma-negra-bionica-4_1024x1024.jpg?v=1693975195"
+      ],
+      "price": 159,
+      "available": true
+    },
+    {
+      "id": 11,
+      "productType": "vestidos",
+      "name": "Magia Cebra",
+      "image": "https://bionica.co/cdn/shop/files/vestido-magia-cebra-bionica-1_1024x1024.jpg?v=1688644931",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/vestido-magia-cebra-bionica-1_1024x1024.jpg?v=1688644931",
+        "https://bionica.co/cdn/shop/files/vestido-magia-cebra-bionica-2_1024x1024.jpg?v=1688644931",
+        "https://bionica.co/cdn/shop/files/vestido-magia-cebra-bionica-3_1024x1024.jpg?v=1688644931",
+        "https://bionica.co/cdn/shop/files/vestido-magia-cebra-bionica-4_1024x1024.jpg?v=1688644931"
+      ],
+      "price": 219,
+      "available": false
+    },
+    {
+      "id": 12,
+      "productType": "vestidos",
+      "name": "Pitillo",
+      "image": "https://bionica.co/cdn/shop/files/vestido-rib-bionica-1_1024x1024.jpg?v=1697030668",
+      "listPhotos": [
+        "https://bionica.co/cdn/shop/files/vestido-rib-bionica-1_1024x1024.jpg?v=1697030668",
+        "https://bionica.co/cdn/shop/files/vestido-rib-bionica-3_1024x1024.jpg?v=1697030667",
+        "https://bionica.co/cdn/shop/files/vestido-rib-bionica-1_1024x1024.jpg?v=1697030668",
+        "https://bionica.co/cdn/shop/files/vestido-rib-bionica-3_1024x1024.jpg?v=1697030667"
+      ],
+      "price": 118,
+      "available": true
+    }
+  ]
+}
