@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { BuyCard } from "../Common/BuyCard";
 import { useParams } from "react-router";
-import { Box, Stack } from "@mui/material";
+import { Box, Grid, ListItem, Typography } from "@mui/material";
 import axios from "axios";
 import { BuyForm } from "../Common/BuyForm";
+import { ImageGrid } from "../Common/ImageGrid";
+
+import { ProductDetailCard } from "../Common/ProductDetailCard";
 
 export const Buy = () => {
   const { id } = useParams();
@@ -31,34 +33,35 @@ export const Buy = () => {
 
   console.log(product);
   return (
-    <div>
-      <Box
-        sx={{ flexGrow: 1 }}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <h2>Datos de compra</h2>
-        <Box
-          sx={{ flexGrow: 1 }}
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            alignItems: "space-around",
-          }}
-        >
-          <Box>
-            <BuyForm product={product} />
-          </Box>
-          <Box>
-            <BuyCard product={product} />
-          </Box>
-        </Box>
-      </Box>
-    </div>
+    <Box
+      sx={{
+        flexGrow: 1,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: "auto",
+      }}
+    >
+      <Typography variant="h4" margin="2rem" align="center" color={"primary"}>
+        Datos de compra
+      </Typography>
+
+      <Grid container spacing={2} justifyContent={"center"}>
+        <Grid item xs={12} md={4}>
+          <ImageGrid product={product} />
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <ProductDetailCard product={product} />
+            </Grid>
+            <Grid item xs={12}>
+              <BuyForm product={product} />
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+    </Box>
   );
 };

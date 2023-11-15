@@ -38,7 +38,7 @@ export const ProductCard = ({ item }) => {
                 variant="contained"
                 startIcon={<VisibilityIcon />}
               >
-                Ver
+                Ver detalle
               </Button>
             </Link>
             <Link to={`/comprar/${product.id}`}>
@@ -48,7 +48,7 @@ export const ProductCard = ({ item }) => {
                 variant="contained"
                 startIcon={<ShoppingCartIcon />}
               >
-                Agregar al carrito
+                Comprar
               </Button>
             </Link>
           </Stack>
