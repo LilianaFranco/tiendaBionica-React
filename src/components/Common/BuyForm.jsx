@@ -1,6 +1,6 @@
 import {
   Alert,
-  Box,
+  AlertTitle,
   Button,
   MenuItem,
   Snackbar,
@@ -8,21 +8,19 @@ import {
   TextField,
 } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+import PaymentIcon from "@mui/icons-material/Payment";
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { CarContext } from "../../Context/CarContext";
-import { ColorModeContext } from "../../Context/ColorModeContext";
 
 export const BuyForm = ({ product }) => {
   console.log(product);
 
-  const colorMode = useContext(ColorModeContext);
-  const mode = colorMode.mode;
-
   const carContext = useContext(CarContext);
   const { saveItemInCar } = carContext;
 
+  const [pay, setPay] = useState(false);
   const [size, setSize] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -31,6 +29,7 @@ export const BuyForm = ({ product }) => {
       console.log("Selected size:", size);
       saveItemInCar({ product, size });
       setOpen(true);
+      setPay(true);
     } else {
       // Show error alert if no size is selected
       setOpen(true);
@@ -63,9 +62,11 @@ export const BuyForm = ({ product }) => {
           severity={size ? "success" : "error"}
           sx={{ width: "400px" }}
         >
+          <AlertTitle>{size ? "¡Excelente!" : "Error"}</AlertTitle>
+
           {size
-            ? `La talla ${size} fue agregada al carrito exitosamente.`
-            : "Por favor selecciona una talla."}
+            ? ` El producto talla ${size} fue agregado al carrito.`
+            : " Por favor selecciona una talla para continuar."}
         </Alert>
       </Snackbar>
 
@@ -87,16 +88,6 @@ export const BuyForm = ({ product }) => {
         </TextField>
       </div>
       <Stack direction="row" spacing={2} marginTop={"1rem"}>
-        <Link to={`/productos`}>
-          <Button
-            size="small"
-            color="primary"
-            variant="contained"
-            startIcon={<ArrowBackIcon />}
-          >
-            Volver
-          </Button>
-        </Link>
         <Button
           size="small"
           color="primary"
@@ -106,6 +97,29 @@ export const BuyForm = ({ product }) => {
         >
           Agregar al carrito
         </Button>
+        <Link to={`/productos`}>
+          <Button
+            size="small"
+            color="primary"
+            variant="contained"
+            startIcon={<ShoppingBasketIcon />}
+          >
+            Seguir comprando
+          </Button>
+        </Link>
+
+        {pay ? (
+          <Link to={`/productos`}>
+            <Button
+              size="small"
+              color="primary"
+              variant="contained"
+              startIcon={<PaymentIcon />}
+            >
+              Pagar
+            </Button>
+          </Link>
+        ) : null}
       </Stack>
     </div>
   );
