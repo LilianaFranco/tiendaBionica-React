@@ -73,7 +73,7 @@ export const ProductDetail = () => {
               variant="contained"
               startIcon={<ShoppingCartIcon />}
             >
-              Agregar al carrito
+              Comprar
             </Button>
           </Link>
         </Stack>
