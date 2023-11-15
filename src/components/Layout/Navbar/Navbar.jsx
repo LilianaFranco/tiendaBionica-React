@@ -138,7 +138,7 @@ export const Navbar = ({ children }) => {
               </Button>
               <Link
                 style={{ textDecoration: "none", color: "white" }}
-                to={`/productos`}
+                to={`/carrito`}
               >
                 <Button
                   onClick={handleCloseNavMenu}

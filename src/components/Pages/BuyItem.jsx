@@ -7,7 +7,7 @@ import { ImageGrid } from "../Common/ImageGrid";
 
 import { ProductDetailCard } from "../Common/ProductDetailCard";
 
-export const Buy = () => {
+export const BuyItem = () => {
   const { id } = useParams();
   const [product, setProduct] = useState({});
 

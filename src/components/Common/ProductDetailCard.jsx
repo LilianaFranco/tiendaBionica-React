@@ -1,7 +1,6 @@
-import { Button, Card, CardContent, Stack, Typography } from "@mui/material";
+import { Card, CardContent, Stack, Typography } from "@mui/material";
 import React from "react";
 
-import { ImageGrid } from "./ImageGrid";
 
 export const ProductDetailCard = ({ product }) => {
   console.log(product);
