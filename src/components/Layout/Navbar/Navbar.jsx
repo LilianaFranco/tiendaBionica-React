@@ -17,13 +17,14 @@ import { Link, Outlet } from "react-router-dom";
 import { useTheme } from "@mui/material/styles";
 import { DarkMode, LightMode } from "@mui/icons-material";
 import { ColorModeContext } from "../../../Context/ColorModeContext";
+import { CarContext } from "../../../Context/CarContext";
 
 const pages = ["Productos", "Carrito"];
 
 export const Navbar = ({ children }) => {
   const theme = useTheme();
   const colorMode = useContext(ColorModeContext);
-  console.log(children);
+  const carContext = useContext(CarContext);
   const [anchorElNav, setAnchorElNav] = useState();
 
   const handleOpenNavMenu = (e) => {
@@ -143,7 +144,10 @@ export const Navbar = ({ children }) => {
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  <Badge badgeContent={4} color="secondary">
+                  <Badge
+                    badgeContent={carContext.carItems.length}
+                    color="secondary"
+                  >
                     <ShoppingCartIcon color="white" />
                   </Badge>
                 </Button>

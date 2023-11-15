@@ -47,12 +47,12 @@ export const Buy = () => {
         Datos de compra
       </Typography>
 
-      <Grid container spacing={2} justifyContent={"center"}>
-        <Grid item xs={12} md={4}>
+      <Grid container spacing={1} justifyContent={"center"}>
+        <Grid item xs={12} md={5}>
           <ImageGrid product={product} />
         </Grid>
-        <Grid item xs={12} md={4}>
-          <Grid container spacing={2}>
+        <Grid item xs={12} md={5}>
+          <Grid container spacing={3}>
             <Grid item xs={12}>
               <ProductDetailCard product={product} />
             </Grid>

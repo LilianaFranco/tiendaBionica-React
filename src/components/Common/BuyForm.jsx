@@ -9,24 +9,35 @@ import {
 } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { CarContext } from "../../Context/CarContext";
+import { ColorModeContext } from "../../Context/ColorModeContext";
 
 export const BuyForm = ({ product }) => {
   console.log(product);
+
+  const colorMode = useContext(ColorModeContext);
+  const mode = colorMode.mode;
+
+  const carContext = useContext(CarContext);
+  const { saveItemInCar } = carContext;
+
   const [size, setSize] = useState("");
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
     if (size) {
       console.log("Selected size:", size);
-      // Show success alert
+      saveItemInCar({ product, size });
       setOpen(true);
     } else {
       // Show error alert if no size is selected
       setOpen(true);
     }
   };
+
+  console.log(carContext);
 
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
@@ -60,6 +71,7 @@ export const BuyForm = ({ product }) => {
 
       <div>
         <TextField
+          id="outlined-select-currency"
           select
           label="Talla"
           value={size}
