@@ -50,7 +50,7 @@ export const ShoppingList = () => {
                     </Typography>
                     <br />
                     <Typography variant="body2" color="text.secondary">
-                      {`Talla: ${item.product.size}`}
+                      {`Talla: ${item.size}`}
                     </Typography>
                   </React.Fragment>
                 }
